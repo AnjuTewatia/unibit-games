@@ -12,6 +12,8 @@ const firstvalue = (arr, value) => {
   let targetvalue = value * 2;
   let allvalue = [];
 
+  //   all combinations of arrays
+
   for (let i = 0; i < firstarray.length; i++) {
     let count2 = [];
 
@@ -37,7 +39,7 @@ const firstvalue = (arr, value) => {
 };
 
 const { count, sortedarray, allvalue } = firstvalue(arr, value);
-// result
+// result of all combinations
 console.log("firstarray", count);
 console.log("AfterSorting", sortedarray);
 console.log("combinationsof All Arrays", allvalue);
